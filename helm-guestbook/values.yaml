@@ -43,3 +43,5 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+echo:
+  text: "nazdar bazar" 
