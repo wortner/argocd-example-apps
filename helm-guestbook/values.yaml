@@ -45,3 +45,4 @@ tolerations: []
 affinity: {}
 echo:
   text: "nazdar bazar" 
+  listen: 8080
