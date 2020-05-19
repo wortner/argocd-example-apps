@@ -7,12 +7,11 @@ metadata:
   namespace: default
 spec: 
   rules: 
-    - 
-      host: www.guestbook.com
+    - host: guestbook.local
       http: 
         paths: 
           - 
             backend: 
               serviceName: helm-guestbook
-              servicePort: 8080
+              servicePort: http
             path: /guestbook
