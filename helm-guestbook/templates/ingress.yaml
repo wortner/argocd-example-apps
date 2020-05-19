@@ -7,10 +7,10 @@ metadata:
   namespace: default
 spec: 
   rules: 
-    - host: 192.168.10.103
+    - host: guestbook.local
       http: 
         paths: 
           - 
             backend: 
               serviceName: helm-guestbook
-              servicePort: http
+              servicePort: 5678
