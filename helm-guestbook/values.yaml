@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: gcr.io/heptio-images/ks-guestbook-demo
-  tag: 0.1
+  repository: wortner/podinfo
+  tag: dev-h5643r13
   pullPolicy: IfNotPresent
 
 service:
