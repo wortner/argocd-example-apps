@@ -14,5 +14,5 @@ spec:
           - 
             backend: 
               serviceName: helm-guestbook
-              servicePort: 8081
+              servicePort: 8080
             path: /guestbook
