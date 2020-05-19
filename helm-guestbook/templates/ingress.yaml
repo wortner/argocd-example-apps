@@ -1,16 +1,18 @@
 apiVersion: networking.k8s.io/v1beta1
-  kind: Ingress
-  metadata:
-    annotations:
-      kubernetes.io/ingress.class: nginx
-    name: ingress
-    namespace: default
-  spec:
-    rules:
-      - host: www.guestbook.com
-        http:
-          paths:
-            - backend:
-                serviceName: helm-guestbook
-                servicePort: 8080
-              path: /
+kind: Ingress
+metadata: 
+  annotations: 
+    kubernetes.io/ingress.class: nginx
+  name: ingress
+  namespace: default
+spec: 
+  rules: 
+    - 
+      host: www.guestbook.com
+      http: 
+        paths: 
+          - 
+            backend: 
+              serviceName: helm-guestbook
+              servicePort: 8080
+            path: /
