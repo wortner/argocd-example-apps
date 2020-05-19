@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: wortner/podinfo
-  tag: dev-h5643r13
+  repository: hashicorp/http-echo
+  tag: 0.2.3
   pullPolicy: IfNotPresent
 
 service:
